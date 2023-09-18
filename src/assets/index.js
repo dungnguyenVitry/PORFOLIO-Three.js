@@ -25,8 +25,20 @@ import orange from "./company/orange.png";
 import delf from "./company/delf.jpg";
 import tcf from "./company/tcf.jpg";
 import toeic from "./company/toeic.png";
+import meta from "./company/meta-logo.png";
 
 import carrent from "./carrent.png";
+
+
+// certi
+
+import frontmeta from "./certificate/frontmeta.jpg";
+import johnhopskin from "./certificate/johnhopskin.jpg";
+import reactexpress from "./certificate/reactexpress.jpg";
+import toeiccert from "./certificate/toeiccert.jpg";
+import delfcert from "./certificate/delfcert.jpg";
+
+
 
 export {
   logo,
@@ -55,4 +67,10 @@ export {
   delf,
   tcf,
   toeic,
+  meta,
+  frontmeta,
+  johnhopskin,
+  reactexpress,
+  toeiccert,
+  delfcert,
 };

@@ -20,6 +20,12 @@ import {
   tcf,
   toeic,
   threejs,
+  meta,
+  frontmeta,
+  johnhopskin,
+  reactexpress,
+  delfcert,
+  toeiccert,
 } from "../assets";
 
 export const navLinks = [
@@ -35,6 +41,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "cert",
+    title: "Certificate",
+  }
 ];
 
 
@@ -107,7 +117,31 @@ const technologies = [
 
 ];
 
+const certificates = [
+  {
+    title: "Meta Frontend developer",
+    img: frontmeta,
+  },
+  {
+    title: "John Hopskin Univercity certificate",
+    img: johnhopskin,
+  },
+  {
+    title: "Project certificate: React & Express",
+    img: reactexpress,
+  },
+  {
+    title: "TOEIC- 875/990 points -Language certificate",
+    img: toeiccert,
+  },
+  {
+    title: "DELF B2 80/100 point-Language certificate",
+    img: delfcert,
+  },
+]
+
 const experiences = [
+  
   {
     title: "React.js Developer",
     company_name: "Rikai",
@@ -123,39 +157,7 @@ const experiences = [
       "Participating in test function",
     ],
   },
-  {
-    title: "Language certificate",
-    company_name: "DELF",
-    icon: delf,
-    iconBg: "#383E56",
-    date: "Avril 2023",
-    context:"",
-    points: [
-      "DELF B2 80/100"
-    ],
-  },
-  {
-    title: "Language certificate",
-    company_name: "TCF",
-    icon: tcf,
-    iconBg: "#383E56",
-    date: "Decembre 2022",
-    context:"",
-    points: [
-      "TCF 434/699"
-    ],
-  },
-  {
-    title: "Language certificate",
-    company_name: "TOEIC",
-    icon: toeic,
-    iconBg: "#383E56",
-    date: "Avril 2022",
-    context:"",
-    points: [
-      "TOEIC 875/990"
-    ],
-  },
+  
   {
     title: "Intern- Angular 11 Developer",
     company_name: "Orange",
@@ -189,4 +191,4 @@ const experiences = [
     ],
   },
 ];
-export { services, technologies, experiences };
+export { services, technologies, experiences, certificates };
